@@ -1,0 +1,45 @@
+h1,
+ol,
+div,
+p {
+  display: flex;
+  flex-direction: column;
+  /* Faz os itens ficarem em uma coluna */
+  justify-content: center;
+  /* Centraliza os itens verticalmente (dentro da lista) */
+  align-items: center;
+  /* Centraliza os itens horizontalmente (dentro da lista) */
+  gap: 20px;
+  /* Espaço entre os itens */
+  padding: 5px;
+  /* Remove o espaçamento interno padrão da lista */
+  list-style-type: decimal;
+  /* Mantém a numeração */
+}
+
+h1,
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/*.lista-hover-active li:hover {
+  background-color: #dde65f;
+}
+
+.lista-hover-active li:active {
+  color: rgb(228, 0, 0);
+}
+*/
+
+a:hover {
+  background-color: #dde65f;
+}
+
+a:active {
+  color: rgb(228, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
