@@ -1,0 +1,78 @@
+/* Estilo base para as divs */
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  line-height: 150px;
+  transition: border 0.3s ease;
+}
+
+/* Estilo ao passar o mouse por cima */
+.box:hover {
+  border: 2px solid #3498db;
+  /* Borda azul */
+}
+
+.box2 {
+  width: 190px;
+  height: 190px;
+  margin: 15px;
+  line-height: 190px;
+  transition: border 0.3s ease;
+}
+
+/* Estilo ao passar o mouse por cima */
+.box2:hover {
+  border: 2px solid #3498db;
+  /* Borda azul */
+}
+
+#div1 {
+  background-color: blue;
+}
+
+#div2 {
+  background-color: rgb(229, 233, 16);
+}
+
+#div3 {
+  background-color: rgb(0, 83, 21);
+}
+
+#div4 {
+  background-color: rgb(78, 0, 0);
+}
+
+#div5 {
+  background-color: rgb(25, 209, 255);
+}
+
+#h1 {
+  color: white;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#h2 {
+  color: rgb(161, 12, 12);
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#h3 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#h4 {
+  color: rgb(5, 117, 42);
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#h5 {
+  color: rgb(87, 0, 72);
+  font-size: 19px;
+  font-family: 'Courier New', Courier, monospace;
+}
