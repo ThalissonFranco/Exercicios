@@ -44,7 +44,7 @@ ul.texto-hover li a {
   text-decoration: none;
 }
 
-ul.texto-hover:hover li a {
+ul.texto-hover li a:hover {
   font-weight: bold;
   color: black;
 }
